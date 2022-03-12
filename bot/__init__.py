@@ -15,8 +15,7 @@ async def NewChat(bot, message):
     logging.info("New chat {}".format(message.chat.id))
     logging.info("Getting memebers from {}".format(message.chat.id))
     new_members = await message.new_chat_members
-    admins = await bot.get_chat_members(message.chat.id, filter="administrators")
-    force_sub = 
+    admins = await bot.get_chat_members(message.chat.id, filter="administrators") 
     for new_mem in new_members:
         if new_mem in admins:
             logging.info("{} is an admin in {}".format(new_mem.user.id,message.chat.id))
