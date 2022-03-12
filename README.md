@@ -5,7 +5,7 @@ Telegram bot to kick the all members from the group
 
 <b> Heroku </b><br>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy) <br>
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/byomkesh462/auto-kick) <br>
 
 <b> Linux </b><br>
 
